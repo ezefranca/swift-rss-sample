@@ -45,8 +45,6 @@
 		8BB79996203B85FE00378C44 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "Vista-se/ViewController.swift"; sourceTree = SOURCE_ROOT; };
 		8BB799A2203B86B500378C44 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		AAC02B13193DEEFE003997F3 /* Vista-se.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vista-se.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAC02B2A193DEEFE003997F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AAC02B2B193DEEFE003997F3 /* RSSReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSReaderTests.swift; sourceTree = "<group>"; };
 		AAC02B39193DF344003997F3 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FC89E12AF80172D8082C50CC /* Pods-Vista-seTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vista-seTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vista-seTests/Pods-Vista-seTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +81,7 @@
 			children = (
 				8BB79994203B85FE00378C44 /* AppDelegate.swift */,
 				8BB79993203B85FE00378C44 /* FeedCell.swift */,
+				8BB79996203B85FE00378C44 /* ViewController.swift */,
 				8BB7998D203B85FD00378C44 /* FeedCell.xib */,
 				8BB799A2203B86B500378C44 /* Main.storyboard */,
 				8BB79991203B85FD00378C44 /* icone_vista_se.jpg */,
@@ -91,7 +90,6 @@
 				8BB7998F203B85FD00378C44 /* Launch Screen.storyboard */,
 				8BB7998E203B85FD00378C44 /* logo.png */,
 				8BB79995203B85FE00378C44 /* RSSReader-Bridging-Header.h */,
-				8BB79996203B85FE00378C44 /* ViewController.swift */,
 			);
 			name = "Vista-se";
 			path = "New Group";
@@ -113,7 +111,6 @@
 			children = (
 				8BB7998C203B85EA00378C44 /* Vista-se */,
 				AAC02B39193DF344003997F3 /* Podfile */,
-				AAC02B28193DEEFE003997F3 /* RSSReaderTests */,
 				AAC02B14193DEEFE003997F3 /* Products */,
 				72DF2961FEFF079C61BD3EDC /* Pods */,
 				A51F0087B05B822CE6215D98 /* Frameworks */,
@@ -126,23 +123,6 @@
 				AAC02B13193DEEFE003997F3 /* Vista-se.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		AAC02B28193DEEFE003997F3 /* RSSReaderTests */ = {
-			isa = PBXGroup;
-			children = (
-				AAC02B2B193DEEFE003997F3 /* RSSReaderTests.swift */,
-				AAC02B29193DEEFE003997F3 /* Supporting Files */,
-			);
-			path = RSSReaderTests;
-			sourceTree = "<group>";
-		};
-		AAC02B29193DEEFE003997F3 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AAC02B2A193DEEFE003997F3 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +159,7 @@
 				TargetAttributes = {
 					AAC02B12193DEEFE003997F3 = {
 						CreatedOnToolsVersion = 6.0;
-						DevelopmentTeam = 54JDK55DR5;
+						DevelopmentTeam = 2MK765758P;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -382,11 +362,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 54JDK55DR5;
+				DEVELOPMENT_TEAM = 2MK765758P;
 				INFOPLIST_FILE = "Vista-se/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ezefranca.vista-se";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ezefranca.vista-ses";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -405,11 +385,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 54JDK55DR5;
+				DEVELOPMENT_TEAM = 2MK765758P;
 				INFOPLIST_FILE = "Vista-se/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ezefranca.vista-se";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ezefranca.vista-ses";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";

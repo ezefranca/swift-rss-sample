@@ -20,12 +20,12 @@ class ViewController: UITableViewController, MWFeedParserDelegate {
         super.viewDidLoad()
         //tableView.register(FeedCell.self, forCellReuseIdentifier: "FeedCell")
         tableView.register(UINib(nibName: "FeedCell", bundle: nil), forCellReuseIdentifier: "FeedCell")
+        request()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        request()
     }
     
     override func didReceiveMemoryWarning() {

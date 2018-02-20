@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="4Zs-yA-Tfy">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="21L-yD-CzV">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -12,7 +12,7 @@
         <!--RSS-->
         <scene sceneID="aN2-gC-NoO">
             <objects>
-                <tableViewController id="ryM-mG-Bs3" customClass="ViewController" customModule="RSSReader" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="ryM-mG-Bs3" customClass="ViewController" customModule="Vista_se" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="4CI-DW-W5m">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -33,30 +33,15 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bbP-jS-M6I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1005" y="250"/>
+            <point key="canvasLocation" x="1346.4000000000001" y="249.7536945812808"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="zYn-Gj-LXc">
-            <objects>
-                <viewController id="8dk-eV-h2r" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="RsJ-aH-aUl"/>
-                        <viewControllerLayoutGuide type="bottom" id="ucz-yD-OI6"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ekc-kT-nbW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="U0Z-Wq-KVJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-676" y="250"/>
-        </scene>
-        <!--Navigation Controller-->
+        <!--Noticias-->
         <scene sceneID="36P-Af-L2S">
             <objects>
                 <navigationController id="4Zs-yA-Tfy" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Noticias" image="calendar" id="rPh-N4-oCN">
+                        <color key="badgeColor" red="0.0" green="0.56745874880000002" blue="0.83223927019999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Gl6-hy-rkl">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -72,8 +57,68 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zNx-nR-5sS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="140" y="250"/>
+            <point key="canvasLocation" x="482.39999999999998" y="249.7536945812808"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ld0-Zf-1EL">
+            <objects>
+                <viewController id="CwK-SE-Syp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Gdt-ck-epN"/>
+                        <viewControllerLayoutGuide type="bottom" id="MiV-ep-IvY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WH5-Yf-3QC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.45314091439999998" green="0.54571521280000002" blue="0.1207707301" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="wTh-M2-Hwm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jC6-vB-UAK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1346" y="924"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="TiO-sg-gaB">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="21L-yD-CzV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="JHy-Ka-U2V">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.45314091439999998" green="0.54571521280000002" blue="0.1207707301" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="4Zs-yA-Tfy" kind="relationship" relationship="viewControllers" id="gyK-4G-CMu"/>
+                        <segue destination="cyy-uS-q27" kind="relationship" relationship="viewControllers" id="w0t-W8-roL"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sfl-5z-8OS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-380" y="250"/>
+        </scene>
+        <!--Vídeos-->
+        <scene sceneID="3jg-Yh-nOU">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cyy-uS-q27" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Vídeos" image="calendar" id="nIx-UG-dlE"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fuv-s0-lQA">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="CwK-SE-Syp" kind="relationship" relationship="rootViewController" id="zmv-Sd-32E"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7DR-sK-Alc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="482" y="924"/>
         </scene>
     </scenes>
-    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+    <resources>
+        <image name="calendar" width="33" height="33"/>
+    </resources>
+    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
 </document>

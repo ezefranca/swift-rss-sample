@@ -6,15 +6,8 @@ target 'Vista-se' do
   use_frameworks!
 
   # Pods for Vista-se
-	pod 'SVProgressHUD'
+	        pod 'SVProgressHUD'
 pod 'MWFeedParser'
 pod 'KINWebBrowser'
 pod 'AFNetworking'
-
-
-  target 'Vista-seTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
 end
